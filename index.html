@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Liliane Lima — Portfólio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./dist/styles.css" />
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header / Hero -->
+  <header class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-brand to-brand-dark opacity-10"></div>
+    <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="font-semibold text-xl">Liliane Lima.dev</a>
+      <ul class="flex items-center gap-6">
+        <li><a href="#projetos" class="hover:text-brand">Projetos</a></li>
+        <li><a href="#sobre" class="hover:text-brand">Sobre</a></li>
+        <li><a href="#contato" class="hover:text-brand">Contato</a></li>
+      </ul>
+    </nav>
+
+    <section class="max-w-6xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+          Desenvolvedora Front-end
+          <span class="text-brand">+ UI</span>
+        </h1>
+        <p class="mt-4 text-lg text-gray-600">
+          Crio interfaces responsivas, acessíveis e rápidas usando Tailwind CSS, React e boas práticas.
+        </p>
+        <div class="mt-6 flex gap-4">
+          <a href="#projetos" class="px-5 py-3 rounded-lg bg-brand text-white hover:bg-brand-dark transition">
+            Ver projetos
+          </a>
+          <a href="https://www.linkedin.com/in/liliane-lima-psicanalista/" class="px-5 py-3 rounded-lg border border-brand text-brand hover:bg-brand/10 transition">
+            Fale comigo
+          </a>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="aspect-square rounded-2xl bg-gradient-to-tr from-brand/20 to-brand-dark/30 flex items-center justify-center">
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop" alt="Laptop" class="rounded-xl shadow-xl" />
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- Skills / Stack -->
+  <section class="max-w-6xl mx-auto px-6 py-16" id="stack">
+    <h2 class="text-2xl font-semibold">Stack & Skills</h2>
+    <p class="mt-2 text-gray-600">Tecnologias que uso no dia a dia.</p>
+    <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="p-5 rounded-xl bg-white shadow-sm border border-gray-100">
+        <h3 class="font-semibold">Tailwind CSS</h3>
+        <p class="text-sm text-gray-600 mt-2">Estilização ágil com classes utilitárias.</p>
+      </div>
+      <div class="p-5 rounded-xl bg-white shadow-sm border border-gray-100">
+        <h3 class="font-semibold">React</h3>
+        <p class="text-sm text-gray-600 mt-2">Componentização e estado com performance.</p>
+      </div>
+      <div class="p-5 rounded-xl bg-white shadow-sm border border-gray-100">
+        <h3 class="font-semibold">TypeScript</h3>
+        <p class="text-sm text-gray-600 mt-2">Tipos para segurança e manutenção.</p>
+      </div>
+      <div class="p-5 rounded-xl bg-white shadow-sm border border-gray-100">
+        <h3 class="font-semibold">Acessibilidade</h3>
+        <p class="text-sm text-gray-600 mt-2">Inclusão e boas práticas de UX.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section class="bg-white border-t border-gray-100" id="projetos">
+    <div class="max-w-6xl mx-auto px-6 py-16">
+      <h2 class="text-2xl font-semibold">Projetos em destaque</h2>
+      <p class="mt-2 text-gray-600">Seleção de trabalhos recentes.</p>
+
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <article class="group rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" alt="Projeto 1" class="h-40 w-full object-cover" />
+          <div class="p-5">
+            <h3 class="font-semibold group-hover:text-brand transition">Dashboard de Análises</h3>
+            <p class="text-sm text-gray-600 mt-2">UI responsiva com gráficos e filtros.</p>
+            <div class="mt-4 flex items-center gap-3">
+              <span class="px-2 py-1 rounded bg-brand/10 text-brand text-xs">Tailwind</span>
+              <span class="px-2 py-1 rounded bg-gray-100 text-gray-700 text-xs">React</span>
+            </div>
+            <div class="mt-4 flex gap-3">
+              <a href="#" class="text-brand hover:underline text-sm">Live</a>
+              <a href="#" class="text-gray-700 hover:underline text-sm">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="group rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+          <img src="https://images.unsplash.com/photo-1547658719-1205c6b9ec49?q=80&w=1200&auto=format&fit=crop" alt="Projeto 2" class="h-40 w-full object-cover" />
+          <div class="p-5">
+            <h3 class="font-semibold group-hover:text-brand transition">Landing Page SaaS</h3>
+            <p class="text-sm text-gray-600 mt-2">Conversão e performance em foco.</p>
+            <div class="mt-4 flex items-center gap-3">
+              <span class="px-2 py-1 rounded bg-brand/10 text-brand text-xs">Tailwind</span>
+              <span class="px-2 py-1 rounded bg-gray-100 text-gray-700 text-xs">Next.js</span>
+            </div>
+            <div class="mt-4 flex gap-3">
+              <a href="#" class="text-brand hover:underline text-sm">Live</a>
+              <a href="#" class="text-gray-700 hover:underline text-sm">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="group rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop" alt="Projeto 3" class="h-40 w-full object-cover" />
+          <div class="p-5">
+            <h3 class="font-semibold group-hover:text-brand transition">E-commerce UI</h3>
+            <p class="text-sm text-gray-600 mt-2">Carrinho, catálogo e responsividade.</p>
+            <div class="mt-4 flex items-center gap-3">
+              <span class="px-2 py-1 rounded bg-brand/10 text-brand text-xs">Tailwind</span>
+              <span class="px-2 py-1 rounded bg-gray-100 text-gray-700 text-xs">TypeScript</span>
+            </div>
+            <div class="mt-4 flex gap-3">
+              <a href="#" class="text-brand hover:underline text-sm">Live</a>
+              <a href="#" class="text-gray-700 hover:underline text-sm">Código</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section class="max-w-6xl mx-auto px-6 py-16" id="sobre">
+    <h2 class="text-2xl font-semibold">Sobre mim</h2>
+    <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="md:col-span-2">
+        <p class="text-gray-700">
+          Sou desenvolvedora focado em criar experiências web claras e performáticas. Curto transformar ideias em interfaces
+          diretas, com atenção à acessibilidade e manutenção.
+        </p>
+        <p class="text-gray-700 mt-3">
+          Fora do código, estudo design de sistemas, componetização e estratégias para escalar projetos.
+        </p>
+      </div>
+      <aside class="p-5 rounded-xl bg-white shadow-sm border border-gray-100">
+        <h3 class="font-semibold">Disponível para</h3>
+        <ul class="mt-3 space-y-2 text-gray-700">
+          <li>Freelance</li>
+          <li>Tempo integral</li>
+          <li>Consultoria</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <footer class="bg-gray-900 text-gray-200" id="contato">
+    <div class="max-w-6xl mx-auto px-6 py-14">
+      <h2 class="text-2xl font-semibold">Vamos conversar</h2>
+      <p class="mt-2 text-gray-400">Me mande um alô por email ou redes.</p>
+
+      <div class="mt-6 flex flex-wrap items-center gap-4">
+        <a href="mailto:seuemail@lilianelimapsicanalista@gmail.com" class="px-4 py-2 rounded bg-brand text-white hover:bg-brand-dark transition">Email</a>
+        <a href="https://www.linkedin.com/in/lilianelimapsicanalista" class="px-4 py-2 rounded border border-gray-700 hover:bg-gray-800 transition">LinkedIn</a>
+        <a href="https://github.com/Li-code1" class="px-4 py-2 rounded border border-gray-700 hover:bg-gray-800 transition">GitHub</a>
+      </div>
+
+      <p class="mt-10 text-sm text-gray-500">© 2025 Liliane Lima. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
